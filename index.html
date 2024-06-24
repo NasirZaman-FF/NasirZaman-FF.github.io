@@ -1,35 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Public Chat</title>
     <script type="module" src="https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js"></script>
-    <style>
-        .chatbot-embed {
-            width: 90vw;  /* Adjusts width to 90% of the viewport width */
-            height: 80vh; /* Adjusts height to 80% of the viewport height */
-            max-width: 350px; /* Maximum width constraint */
-            margin: auto;
-            display: block;
-        }
-
-        @media (max-width: 768px) {
-            .chatbot-embed {
-                width: 95vw; /* Slightly larger width for smaller devices */
-                height: 70vh; /* Slightly smaller height for smaller devices */
-            }
-        }
-
-        @media (max-width: 480px) {
-            .chatbot-embed {
-                width: 100vw; /* Full width for very small devices */
-                height: 60vh; /* Smaller height for very small devices */
-            }
-        }
-    </style>
 </head>
 <body>
-    <zapier-interfaces-chatbot-embed class="chatbot-embed" is-popup="false" chatbot-id="clr7sqomw01cbub4ovrjxo27l"></zapier-interfaces-chatbot-embed>
+    <zapier-interfaces-chatbot-embed is-popup="false" chatbot-id="clr7sqomw01cbub4ovrjxo27l" height="600%" width="350%"></zapier-interfaces-chatbot-embed>
 </body>
 </html>
